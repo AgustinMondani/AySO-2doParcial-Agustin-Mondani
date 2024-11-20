@@ -11,4 +11,4 @@ docker login -u amondani
 docker build -t amondani/2parcial-ayso:v1.0 .
 sudo docker image list
 docker push amondani/2parcial-ayso:v1.0
-docker run -d -p 80:80 amondani/2parcial-ayso:v1.0
+docker run -d -p 8080:80 amondani/2parcial-ayso:v1.0
